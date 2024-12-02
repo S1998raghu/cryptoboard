@@ -31,7 +31,7 @@
     "webpack": "^5.95.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "start": "node server.js",
     "client": "react-scripts start",
     "server": "node server.js",
     "build": "react-scripts build",
